@@ -151,7 +151,7 @@ var x = setInterval(function() {
   document.getElementById("min").innerHTML = minutestring;
   document.getElementById("sec").innerHTML = secstring;
    
-     document.getElementById("demo2").innerHTML = "Soumyojit  " + getAge('11/26/2004')
+     document.getElementById("demo2").innerHTML = "Sampriti  " + getAge('11/26/2004')
   // If the count down is over, write some text 
   
   if (distance < 0) {
