@@ -79,14 +79,14 @@ function getAge(dateString) {
 
 var year = new Date().getFullYear();
 
-var date = "Sep 12 " + year.toString() + " 00:00:01";
+var date = "Nov 26 " + year.toString() + " 00:00:01";
 var countDownDate = new Date(date).getTime();
-var date2 = "Sep 12 1997 23:22:00"
+var date2 = "Nov 26 2004 23:22:00"
 var now = new Date().getTime();
 var distance = countDownDate - now;
 if(distance < 0){
   year = year + 1;
-  var date = "Sep 12 " + year.toString() + " 00:00:01";
+  var date = "Nov 26 " + year.toString() + " 00:00:01";
   var countDownDate = new Date(date).getTime();
 }
 var countDownDate2 = new Date(date2).getTime();
@@ -151,7 +151,7 @@ var x = setInterval(function() {
   document.getElementById("min").innerHTML = minutestring;
   document.getElementById("sec").innerHTML = secstring;
    
-     document.getElementById("demo2").innerHTML = "Soumyojit  " + getAge('09/12/1997')
+     document.getElementById("demo2").innerHTML = "Soumyojit  " + getAge('11/26/2004')
   // If the count down is over, write some text 
   
   if (distance < 0) {
